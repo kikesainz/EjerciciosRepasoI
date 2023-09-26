@@ -2,19 +2,19 @@ package com.kike.menus;
 
 import com.kike.ejercicios.Ejercicios;
 
-public class HolaMundo implements IAccionMenu{
+public class CompanheroEnumAccionMenu implements IAccionMenu{
 
 	@Override
 	public void ejecutar(Ejercicios e) {
 		
-		e.holaMundo();
+		e.sacarNombreEnum();
 		
 	}
 
 	@Override
 	public String getTitulo() {
 		// TODO Auto-generated method stub
-		return "Hola mundo \\n";
+		return "Elegir compañero ENUM \n";
 	}
 
 }
